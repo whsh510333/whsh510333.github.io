@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 網頁title -->
+        <title>匯率轉換計算機</title>
+        <!-- 使用的js檔 -->
+        <script src="./calculate.js"></script>
+        <!-- 使用的css檔 -->
+        <link rel="stylesheet" href="./mystyle.css">
+    </head>
+    <body>
+        <h1>匯率轉換計算機</h1>
+        
+        <!-- 輸入欄位 -->
+        <label for="amount">金額：</label>
+        <input id="amount" placeholder="請輸入金額" required>
+        
+        <!-- 選擇從甚麼幣別轉換 -->
+        <label>從：</label>
+        <select id="from">
+            <option value="TWD">新台幣 (TWD)</option>
+            <option value="USD">美金 (USD)</option>
+            <option value="EUR">歐元 (EUR)</option>
+            <option value="GBP">英鎊 (GBP)</option>
+            <option value="JPY">日圓 (JPY)</option>
+            <option value="KRW">韓元 (KRW)</option>
+            <option value="AUD">澳幣 (AUD)</option>
+        </select>
+        
+        <!-- 選擇轉換到什麼幣別 -->
+        <label>到：</label>
+        <select id="to">
+            <option value="TWD">新台幣 (TWD)</option>
+            <option value="USD">美金 (USD)</option>
+            <option value="EUR">歐元 (EUR)</option>
+            <option value="GBP">英鎊 (GBP)</option>
+            <option value="JPY">日圓 (JPY)</option>
+            <option value="KRW">韓元 (KRW)</option>
+            <option value="AUD">澳幣 (AUD)</option>
+        </select>
+        
+        <!-- 轉換按鈕 -->
+        <button onclick="convert()">轉換</button>
+        <!-- 重製按鈕 -->
+        <button onclick="reset()">重置</button>
+        <!-- 顯示轉換結果 -->
+        <p id="result"></p>
+    </body>
+</html>
