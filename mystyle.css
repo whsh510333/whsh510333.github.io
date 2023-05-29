@@ -21,19 +21,19 @@ body.gbp {
 }
 
 body.eur {
-    background-color: rgba(11,27,133,0.2);
+    background-color: rgba(11,27,133);
 }
 
 body.aud {
-    background-color: rgba(0,44,124,0.2);
+    background-color: rgba(0,44,124);
 }
 
 body.jpy {
-    background-color: rgba(189,0,44,0.2);
+    background-color: rgba(189,0,44);
 }
 
 body.krw {
-    background-color: rgba(0,52,120,0.2);
+    background-color: rgba(0,52,120);
 }
 
 body.default {
