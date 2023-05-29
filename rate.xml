@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 幣別與匯率 -->
+<rate>
+    <TWD>1</TWD>
+    <USD>30.93</USD>
+    <GBP>38.81</GBP>
+    <EUR>33.44</EUR>
+    <AUD>20.43</AUD>
+    <JPY>0.2218</JPY>
+    <KRW>0.02535</KRW>
+</rate>

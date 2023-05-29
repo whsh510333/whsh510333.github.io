@@ -1,0 +1,64 @@
+/* 背景顏色 */
+body {
+    background-color: #ffebe6;
+}
+
+body {
+    transition: background-color 0.3s;
+}
+  
+/* 不同幣別的背景顏色 來自chatGPT */
+body.twd {
+    background-color: #4CAF50;
+}
+  
+body.usd {
+    background-color: green;
+}
+  
+body.gbp {
+    background-color: red;
+}
+
+body.eur {
+    background-color: rgba(11,27,133);
+}
+
+body.aud {
+    background-color: rgba(0,44,124);
+}
+
+body.jpy {
+    background-color: rgba(189,0,44);
+}
+
+body.krw {
+    background-color: rgba(0,52,120);
+}
+
+body.default {
+    background-color: #ffebe6;
+}
+
+/* 文字的顏色配置 */
+h1 {
+    color: #333333;
+}
+
+/* 按鈕顏色 */
+button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* 當滑鼠移到按鈕上，顏色會改變 */
+button:hover {
+    background-color: #2E8B57;
+  }
+
+/* 轉換結果顏色 */
+p{
+    color:black;
+    text-align: left;
+    padding: 36px;
+}
